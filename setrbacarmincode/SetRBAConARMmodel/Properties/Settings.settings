@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SetRBAConARMmodel.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="TenantID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">&lt;TenantID of your AAD attached to Azure subscription&gt;</Value>
+    </Setting>
+    <Setting Name="SubscriptionID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">&lt;SubscriptionID of your Azure Subscription&gt;</Value>
+    </Setting>
+    <Setting Name="ApplicationID_ClientID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">&lt;ApplicationID of this application in your AAD&gt;</Value>
+    </Setting>
+    <Setting Name="ServiceCredential_ClientPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">&lt;ServicePrincipal password of this aplication in your AAD&gt;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
