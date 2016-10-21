@@ -8,6 +8,7 @@ Code snippets in Program.cs solving this:
 - create role assignment for user from AAD and role from role list in resource group
 - get list of role assignments in resource group
 - delete role assignment from resource group
+Program.cs contains comments explaining source code and api call, incl. powershell instruction for application registration in your Azure Active Directory.
 
 Actions can be called through parameters of console application. 
 E.g. this is example, how to list all roles in resource group "rg_moj_projekt":
