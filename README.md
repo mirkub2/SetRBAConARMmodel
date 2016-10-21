@@ -14,5 +14,8 @@ E.g. this is example, how to list all roles in resource group "rg_moj_projekt":
 SetRBAConARMmodel listRBACroles "rg_moj_projekt" 
 
 Don't forget to change identifications of your subscription in app.config:
-- 
+- TenantID    
+- SubscriptionID
+- ApplicationID_ClientID
+- ServiceCredential_ClientPassword
 
